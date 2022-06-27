@@ -1,0 +1,14 @@
+[package]
+name = "util-rs"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+log = "0.4.0"
+simplelog = "0.12.0"
+reqwest = { version = "0.11.10", features = ["json", "gzip"] }
+reqwest-middleware = "0.1.5"
+reqwest-retry = "0.1.4"
+reqwest-tracing = "0.2.2"
+http = "0.2.6"
+uuid = { version = "1.1.2", features = ["v4"] }
